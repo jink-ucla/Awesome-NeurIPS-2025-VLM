@@ -26,6 +26,8 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 
 ---
 
+<a id="3d-point-clouds"></a>
+
 ## 3D & Point Clouds
 
 | Paper | Links |
@@ -65,6 +67,8 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 | **What’s in Common? Multimodal Models Hallucinate When Reasoning Across Scenes** | [Paper](https://neurips.cc/virtual/2025/poster/121545) |
 | **When Semantics Mislead Vision: Mitigating Large Multimodal Models Hallucinations in Scene Text Spotting and Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/119366) |
 
+<a id="benchmarks-evaluation"></a>
+
 ## Benchmarks & Evaluation
 
 | Paper | Links |
@@ -93,6 +97,8 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 | **V2X-Radar: A Multi-modal Dataset with 4D Radar for Cooperative Perception** | [Paper](https://neurips.cc/virtual/2025/poster/121426) · [GitHub](https://github.com/yanglei18/V2X-Radar) |
 | **WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios** | [Paper](https://neurips.cc/virtual/2025/poster/121428) |
 
+<a id="efficient-lightweight-vlms"></a>
+
 ## Efficient & Lightweight VLMs
 
 | Paper | Links |
@@ -117,6 +123,8 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 | **VisionThink: Smart and Efficient Vision Language Model via Reinforcement Learning** | [Paper](https://neurips.cc/virtual/2025/poster/118060) · [GitHub](https://github.com/dvlab-research/VisionThink) |
 | **Why 1 + 1 < 1 in Visual Token Pruning: Beyond Naive Integration via Multi-Objective Balanced Covering** | [Paper](https://neurips.cc/virtual/2025/poster/119476) |
 
+<a id="embodied-ai-robotics"></a>
+
 ## Embodied AI & Robotics
 
 | Paper | Links |
@@ -134,6 +142,8 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 | **Semi-off-Policy Reinforcement Learning for Vision-Language Slow-Thinking Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/115068) |
 | **Towards Unified Multimodal Interleaved Generation via Group Relative Policy Optimization** | [Paper](https://neurips.cc/virtual/2025/poster/116276) |
 | **UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents** | [Paper](https://neurips.cc/virtual/2025/poster/119990) |
+
+<a id="generation-editing"></a>
 
 ## Generation & Editing
 
@@ -157,6 +167,8 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 | **UniTok: a Unified Tokenizer for Visual Generation and Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/116864) · [Project](https://foundationvision.github.io/UniTok/) |
 | **Vision as a Dialect: Unifying Visual Understanding and Generation via Text-Aligned Representations** | [Paper](https://neurips.cc/virtual/2025/poster/118811) · [Project](https://tar.csuhan.com/) |
 
+<a id="medical-scientific"></a>
+
 ## Medical & Scientific
 
 | Paper | Links |
@@ -171,6 +183,8 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 | **THUNDER: Tile-level Histopathology image UNDERstanding benchmark** | [Paper](https://neurips.cc/virtual/2025/poster/121557) · [Project](https://mics-lab.github.io/thunder/) |
 | **Toward a Vision-Language Foundation Model for Medical Data: Multimodal Dataset and Benchmarks for Vietnamese PET/CT Report Generation** | [Paper](https://neurips.cc/virtual/2025/poster/121676) |
 | **Towards Physics-informed Spatial Intelligence with Human Priors: An Autonomous Driving Pilot Study** | [Paper](https://neurips.cc/virtual/2025/poster/115976) · [Project](https://guanlinwu123.github.io/sigbench/) |
+
+<a id="multimodal-alignment-pre-training"></a>
 
 ## Multimodal Alignment & Pre-training
 
@@ -189,6 +203,8 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 | **SpaceServe: Spatial Multiplexing of Complementary Encoders and Decoders for Multimodal LLMs** | [Paper](https://neurips.cc/virtual/2025/poster/115356) · [GitHub](https://github.com/gofreelee/SpaceServe) |
 | **With Limited Data for Multimodal Alignment, Let the STRUCTURE Guide You** | [Paper](https://neurips.cc/virtual/2025/poster/118769) · [Project](https://brbiclab.epfl.ch/projects/structure/) |
 | **Zooming from Context to Cue: Hierarchical Preference Optimization for Multi-Image MLLMs** | [Paper](https://neurips.cc/virtual/2025/poster/116709) |
+
+<a id="perception-grounding"></a>
 
 ## Perception & Grounding
 
@@ -249,6 +265,8 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 | **VisualLens: Personalization through Task-Agnostic Visual History** | [Paper](https://neurips.cc/virtual/2025/poster/119005) |
 | **Watch and Listen: Understanding Audio-Visual-Speech Moments with Multimodal LLM** | [Paper](https://neurips.cc/virtual/2025/poster/116376) |
 
+<a id="reasoning-chain-of-thought"></a>
+
 ## Reasoning & Chain-of-Thought
 
 | Paper | Links |
@@ -301,6 +319,8 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 | **Visual Thoughts: A Unified Perspective of Understanding Multimodal Chain-of-Thought** | [Paper](https://neurips.cc/virtual/2025/poster/115243) |
 | **VisualQuality-R1: Reasoning-Induced Image Quality Assessment via Reinforcement Learning to Rank** | [Paper](https://neurips.cc/virtual/2025/poster/115506) · [GitHub](https://github.com/TianheWu/VisualQuality-R1) |
 
+<a id="safety-trustworthiness-hallucination"></a>
+
 ## Safety, Trustworthiness & Hallucination
 
 | Paper | Links |
@@ -326,6 +346,8 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 | **Systematic Reward Gap Optimization for Mitigating VLM Hallucinations** | [Paper](https://neurips.cc/virtual/2025/poster/116851) · [Project](https://tpr-dpo.github.io/) |
 | **Towards Robust Uncertainty Calibration for Composed Image Retrieval** | [Paper](https://neurips.cc/virtual/2025/poster/118555) |
 | **Understanding and Rectifying Safety Perception Distortion in VLMs** | [Paper](https://neurips.cc/virtual/2025/poster/118667) |
+
+<a id="video-understanding-generation"></a>
 
 ## Video Understanding & Generation
 
@@ -445,6 +467,8 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 | **Where Does It Exist from the Low-Altitude: Spatial Aerial Video Grounding** | [Paper](https://neurips.cc/virtual/2025/poster/116334) · [GitHub](https://github.com/ZhanYang-nwpu/SAVG) |
 | **WorldModelBench: Judging Video Generation Models As World Models** | [Paper](https://neurips.cc/virtual/2025/poster/121570) · [Project](https://worldmodelbench-team.github.io/) |
 | **iFinder: Structured Zero-Shot Vision-Based LLM Grounding for Dash-Cam Video Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/116305) |
+
+<a id="other-vlm-papers"></a>
 
 ## Other VLM Papers
 
