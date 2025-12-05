@@ -11,22 +11,89 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 ---
 
 ## 📑 Table of Contents
-- [⚡ Efficient & Lightweight VLMs](#efficient-lightweight-vlms)
-- [🎥 Video Understanding & Generation](#video-understanding-generation)
-- [👁️ Perception & Grounding](#perception-grounding)
-- [📊 Benchmarks & Evaluation](#benchmarks-evaluation)
-- [🔄 Multimodal Alignment & Pre-training](#multimodal-alignment-pre-training)
-- [🖼️ Generation & Editing](#generation-editing)
-- [🛡️ Safety, Trustworthiness & Hallucination](#safety-trustworthiness-hallucination)
-- [🤖 Embodied AI & Robotics](#embodied-ai-robotics)
-- [🧊 3D & Point Clouds](#3d-point-clouds)
-- [🧠 Reasoning & Chain-of-Thought](#reasoning-chain-of-thought)
-- [🩺 Medical & Scientific](#medical-scientific)
-- [📚 Other VLM Papers](#other-vlm-papers)
+- [3D & Point Clouds](#3d-point-clouds)
+- [Benchmarks & Evaluation](#benchmarks-evaluation)
+- [Efficient & Lightweight VLMs](#efficient-lightweight-vlms)
+- [Embodied AI & Robotics](#embodied-ai-robotics)
+- [Generation & Editing](#generation-editing)
+- [Medical & Scientific](#medical-scientific)
+- [Multimodal Alignment & Pre-training](#multimodal-alignment-pre-training)
+- [Perception & Grounding](#perception-grounding)
+- [Reasoning & Chain-of-Thought](#reasoning-chain-of-thought)
+- [Safety, Trustworthiness & Hallucination](#safety-trustworthiness-hallucination)
+- [Video Understanding & Generation](#video-understanding-generation)
+- [Other VLM Papers](#other-vlm-papers)
 
 ---
 
-## ⚡ Efficient & Lightweight VLMs
+## 3D & Point Clouds
+
+| Paper | Links |
+|-------|-------|
+| **3EED: Ground Everything Everywhere in 3D** | [Paper](https://neurips.cc/virtual/2025/poster/121462) · [Project](https://project-3eed.github.io/) |
+| **AffordBot: 3D Fine-grained Embodied Reasoning via Multimodal Large Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/118403) |
+| **Asymmetric Dual Self-Distillation for 3D Self-Supervised Representation Learning** | [Paper](https://neurips.cc/virtual/2025/poster/119465) · [GitHub](https://github.com/RFLeijenaar/AsymDSD) |
+| **Backpropagation-Free Test-Time Adaptation via Probabilistic Gaussian Alignment** | [Paper](https://neurips.cc/virtual/2025/poster/115767) · [Project](https://aim-skku.github.io/ADAPT/) |
+| **CroPe: Cross-Modal Semantic Compensation Adaptation for All Adverse Scene Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/120067) · [GitHub](https://github.com/wqh011128/CroPe) |
+| **DIFFSSR: Stereo Image Super-resolution Using Differential Transformer** | [Paper](https://neurips.cc/virtual/2025/poster/115153) · [GitHub](https://github.com/Zdafeng/DIFFSSR) |
+| **Distil-E2D: Distilling Image-to-Depth Priors for Event-Based Monocular Depth Estimation** | [Paper](https://neurips.cc/virtual/2025/poster/115168) |
+| **Dynam3D: Dynamic Layered 3D Tokens Empower VLM for Vision-and-Language Navigation** | [Paper](https://neurips.cc/virtual/2025/poster/115715) |
+| **ESCA: Contextualizing Embodied Agents via Scene-Graph Generation** | [Paper](https://neurips.cc/virtual/2025/poster/117064) |
+| **From Objects to Anywhere: A Holistic Benchmark for Multi-level Visual Grounding in 3D Scenes** | [Paper](https://neurips.cc/virtual/2025/poster/121709) · [Project](https://anywhere-3d.github.io/) |
+| **Gaze Beyond the Frame: Forecasting Egocentric 3D Visual Span** | [Paper](https://neurips.cc/virtual/2025/poster/119590) |
+| **IPFormer: Visual 3D Panoptic Scene Completion with Context-Adaptive Instance Proposals** | [Paper](https://neurips.cc/virtual/2025/poster/117455) · [Project](https://markus-42.github.io/publications/2025/ipformer/) |
+| **IR3D-Bench: Evaluating Vision-Language Model Scene Understanding as Agentic Inverse Rendering** | [Paper](https://neurips.cc/virtual/2025/poster/121555) · [Project](https://ir3d-bench.github.io/) |
+| **Interactive Cross-modal Learning for Text-3D Scene Retrieval** | [Paper](https://neurips.cc/virtual/2025/poster/116802) |
+| **MEGADance: Mixture-of-Experts Architecture for Genre-Aware 3D Dance Generation** | [Paper](https://neurips.cc/virtual/2025/poster/116050) |
+| **MLLM-ISU: The First-Ever Comprehensive Benchmark for Multimodal Large Language Models based Intrusion Scene Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/121848) · [GitHub](https://github.com/1012537710/MLLM-ISU) |
+| **MSTAR: Box-free Multi-query Scene Text Retrieval with Attention Recycling** | [Paper](https://neurips.cc/virtual/2025/poster/118782) · [GitHub](https://github.com/yingift/MSTAR) |
+| **NAUTILUS: A Large Multimodal Model for Underwater Scene Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/118147) · [GitHub](https://github.com/H-EmbodVis/NAUTILUS) |
+| **OnlineSplatter: Pose-Free Online 3D Reconstruction for Free-Moving Objects** | [Paper](https://neurips.cc/virtual/2025/poster/117447) · [Project](https://markhh.com/OnlineSplatter/) |
+| **OpenBox: Annotate Any Bounding Boxes in 3D** | [Paper](https://neurips.cc/virtual/2025/poster/119679) |
+| **OpenHype: Hyperbolic Embeddings for Hierarchical Open-Vocabulary Radiance Fields** | [Paper](https://neurips.cc/virtual/2025/poster/115048) · [Project](https://lisaweijler.github.io/openhype-projectpage/) |
+| **Robust Cross-modal Alignment Learning for Cross-Scene Spatial Reasoning and Grounding** | [Paper](https://neurips.cc/virtual/2025/poster/115216) |
+| **SD-VLM: Spatial Measuring and Understanding with Depth-Encoded Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/118216) · [Project](https://cpystan.github.io/SD_VLM_pages/) |
+| **SceneForge: Enhancing 3D-text alignment with Structured Scene Compositions** | [Paper](https://neurips.cc/virtual/2025/poster/119379) · [Project](https://mortorit.github.io/sceneforge-neurips2025/) |
+| **SceneWeaver: All-in-One 3D Scene Synthesis with an Extensible and Self-Reflective Agent** | [Paper](https://neurips.cc/virtual/2025/poster/115278) · [Project](https://scene-weaver.github.io/) |
+| **Situat3DChange: Situated 3D Change Understanding Dataset for Multimodal Large Language Model** | [Paper](https://neurips.cc/virtual/2025/poster/121602) |
+| **SpatialReasoner: Towards Explicit and Generalizable 3D Spatial Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/116669) · [Project](https://spatial-reasoner.github.io/) |
+| **Towards 3D Objectness Learning in an Open World** | [Paper](https://neurips.cc/virtual/2025/poster/115346) · [Project](https://op3det.github.io/) |
+| **Towards Comprehensive Scene Understanding: Integrating First and Third-Person Views for LVLMs** | [Paper](https://neurips.cc/virtual/2025/poster/116235) · [GitHub](https://github.com/Leeinsu1/Towards-Comprehensive-Scene-Understanding) |
+| **VR-Drive: Viewpoint-Robust End-to-End Driving with Feed-Forward 3D Gaussian Splatting** | [Paper](https://neurips.cc/virtual/2025/poster/118352) |
+| **ViSPLA: Visual Iterative Self-Prompting for Language-Guided 3D Affordance Learning** | [Paper](https://neurips.cc/virtual/2025/poster/119081) · [Project](https://hritam-98.github.io/VisPLA/) |
+| **Walking the Schrödinger Bridge: A Direct Trajectory for Text-to-3D Generation** | [Paper](https://neurips.cc/virtual/2025/poster/116147) · [GitHub](https://github.com/emmaleee789/TraCe.git) |
+| **What’s in Common? Multimodal Models Hallucinate When Reasoning Across Scenes** | [Paper](https://neurips.cc/virtual/2025/poster/121545) |
+| **When Semantics Mislead Vision: Mitigating Large Multimodal Models Hallucinations in Scene Text Spotting and Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/119366) |
+
+## Benchmarks & Evaluation
+
+| Paper | Links |
+|-------|-------|
+| **CAPability: A Comprehensive Visual Caption Benchmark for Evaluating Both Correctness and Thoroughness** | [Paper](https://neurips.cc/virtual/2025/poster/121398) · [Project](https://capability-bench.github.io/) |
+| **CHOICE: Benchmarking the Remote Sensing Capabilities of Large Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/121749) · [GitHub](https://github.com/ShawnAn-WHU/CHOICE) · [Project](https://rs-choice.github.io/) |
+| **Can Large Language Models Help Multimodal Language Analysis? MMLA: A Comprehensive Benchmark** | [Paper](https://neurips.cc/virtual/2025/poster/121723) · [GitHub](https://github.com/thuiar/MMLA) |
+| **Counterfactual Evolution of Multimodal Datasets via Visual Programming** | [Paper](https://neurips.cc/virtual/2025/poster/117179) |
+| **CrypticBio: A Large Multimodal Dataset for Visually Confusing Species** | [Paper](https://neurips.cc/virtual/2025/poster/121654) · [Project](https://georgianagmanolache.github.io/crypticbio) |
+| **DAVE: Diagnostic benchmark for Audio Visual Evaluation** | [Paper](https://neurips.cc/virtual/2025/poster/121842) · [GitHub](https://github.com/gorjanradevski/dave) |
+| **DisasterM3: A Remote Sensing Vision-Language Dataset for Disaster Damage Assessment and Response** | [Paper](https://neurips.cc/virtual/2025/poster/121427) · [GitHub](https://github.com/Junjue-Wang/DisasterM3) |
+| **DynamicVL: Benchmarking Multimodal Large Language Models for Dynamic City Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/121371) · [GitHub](https://github.com/weihao1115/dynamicvl) |
+| **EgoExOR: An Ego-Exo-Centric  Operating Room Dataset for Surgical Activity Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/121697) · [GitHub](https://github.com/ardamamur/EgoExOR) |
+| **Enhancing Infrared Vision: Progressive Prompt Fusion Network and Benchmark** | [Paper](https://neurips.cc/virtual/2025/poster/115172) |
+| **Exploiting the Asymmetric Uncertainty Structure of Pre-trained VLMs on the Unit Hypersphere** | [Paper](https://neurips.cc/virtual/2025/poster/116582) · [GitHub](https://github.com/li-ju666/asymvlm) |
+| **Face-Human-Bench: A Comprehensive Benchmark of Face and Human Understanding for Multi-modal Assistants** | [Paper](https://neurips.cc/virtual/2025/poster/121722) · [Project](https://face-human-bench.github.io/) |
+| **Hyperphantasia: A Benchmark for Evaluating the Mental Visualization Capabilities of Multimodal LLMs** | [Paper](https://neurips.cc/virtual/2025/poster/121686) · [GitHub](https://github.com/AIF4S/Hyperphantasia) |
+| **IndEgo: A Dataset of Industrial Scenarios and Collaborative Work for Egocentric Assistants** | [Paper](https://neurips.cc/virtual/2025/poster/121501) · [Project](https://indego-dataset.github.io/) |
+| **InfoChartQA: A Benchmark for Multimodal Question Answering on Infographic Charts** | [Paper](https://neurips.cc/virtual/2025/poster/121377) · [GitHub](https://github.com/thu-vis/InfoChartQA) |
+| **MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/121773) · [GitHub](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) |
+| **MMLongBench: Benchmarking Long-Context Vision-Language Models Effectively and Thoroughly** | [Paper](https://neurips.cc/virtual/2025/poster/121768) · [Project](https://zhaowei-wang-nlp.github.io/MMLongBench-page/) |
+| **RGB-to-Polarization Estimation: A New Task and Benchmark Study** | [Paper](https://neurips.cc/virtual/2025/poster/121777) |
+| **RSCC: A Large-Scale Remote Sensing Change Caption Dataset for Disaster Events** | [Paper](https://neurips.cc/virtual/2025/poster/121378) · [Project](https://bili-sakura.github.io/RSCC/) |
+| **Roboflow100-VL: A Multi-Domain Object Detection Benchmark for Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/121741) · [Project](https://rf100-vl.org/) |
+| **TaiwanVQA: Benchmarking and Enhancing Cultural Understanding in Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/121559) · [Project](https://huggingface.co/datasets/hhhuang/TaiwanVQA) |
+| **V2X-Radar: A Multi-modal Dataset with 4D Radar for Cooperative Perception** | [Paper](https://neurips.cc/virtual/2025/poster/121426) · [GitHub](https://github.com/yanglei18/V2X-Radar) |
+| **WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios** | [Paper](https://neurips.cc/virtual/2025/poster/121428) |
+
+## Efficient & Lightweight VLMs
 
 | Paper | Links |
 |-------|-------|
@@ -50,7 +117,217 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 | **VisionThink: Smart and Efficient Vision Language Model via Reinforcement Learning** | [Paper](https://neurips.cc/virtual/2025/poster/118060) · [GitHub](https://github.com/dvlab-research/VisionThink) |
 | **Why 1 + 1 < 1 in Visual Token Pruning: Beyond Naive Integration via Multi-Objective Balanced Covering** | [Paper](https://neurips.cc/virtual/2025/poster/119476) |
 
-## 🎥 Video Understanding & Generation
+## Embodied AI & Robotics
+
+| Paper | Links |
+|-------|-------|
+| **BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent** | [Paper](https://neurips.cc/virtual/2025/poster/119419) |
+| **Benchmarking Egocentric Multimodal Goal Inference for Assistive Wearable Agents** | [Paper](https://neurips.cc/virtual/2025/poster/121655) · [Project](https://facebookresearch.github.io/WAGIBench/) |
+| **Embodied Web Agents: Bridging Physical-Digital Realms for Integrated Agent Intelligence** | [Paper](https://neurips.cc/virtual/2025/poster/121809) · [Project](https://embodied-web-agent.github.io/) |
+| **GUI-Rise: Structured Reasoning and History Summarization for GUI Navigation** | [Paper](https://neurips.cc/virtual/2025/poster/117425) · [Project](https://leon022.github.io/GUI-Rise/) |
+| **Hierarchical Semantic-Augmented Navigation: Optimal Transport and Graph-Driven Reasoning for Vision-Language Navigation** | [Paper](https://neurips.cc/virtual/2025/poster/115108) |
+| **Iterative Tool Usage Exploration for Multimodal Agents via Step-wise Preference Tuning** | [Paper](https://neurips.cc/virtual/2025/poster/115154) · [Project](https://neurips.cc/virtual/2025/loc/san-diego/poster/sport-agents.github.io) |
+| **MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents** | [Paper](https://neurips.cc/virtual/2025/poster/117813) · [Project](https://neurips.cc/virtual/2025/loc/san-diego/poster/aichberger.github.io) |
+| **Perception-R1: Pioneering Perception Policy with Reinforcement Learning** | [Paper](https://neurips.cc/virtual/2025/poster/119361) · [arXiv](https://arxiv.org/pdf/2504.07954) |
+| **RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics** | [Paper](https://neurips.cc/virtual/2025/poster/118306) · [Project](https://zhoues.github.io/RoboRefer/) |
+| **STRIDER: Navigation via Instruction-Aligned Structural Decision Space Optimization** | [Paper](https://neurips.cc/virtual/2025/poster/115370) |
+| **Semi-off-Policy Reinforcement Learning for Vision-Language Slow-Thinking Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/115068) |
+| **Towards Unified Multimodal Interleaved Generation via Group Relative Policy Optimization** | [Paper](https://neurips.cc/virtual/2025/poster/116276) |
+| **UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents** | [Paper](https://neurips.cc/virtual/2025/poster/119990) |
+
+## Generation & Editing
+
+| Paper | Links |
+|-------|-------|
+| **Benchmarking Retrieval-Augmented Multimomal Generation for Document Question Answering** | [Paper](https://neurips.cc/virtual/2025/poster/121603) · [Project](https://mmdocrag.github.io/MMDocRAG/) |
+| **Co-Reinforcement Learning for Unified Multimodal Understanding and Generation** | [Paper](https://neurips.cc/virtual/2025/poster/117287) |
+| **DGSolver: Diffusion Generalist Solver with Universal Posterior Sampling for Image Restoration** | [Paper](https://neurips.cc/virtual/2025/poster/116716) · [GitHub](https://github.com/MiliLab/DGSolver) |
+| **DP²O-SR: Direct Perceptual Preference Optimization for Real-World Image Super-Resolution** | [Paper](https://neurips.cc/virtual/2025/poster/119975) · [GitHub](https://github.com/cswry/DP2O-SR) |
+| **Enhancing Text-to-Image Diffusion Transformer via Split-Text Conditioning** | [Paper](https://neurips.cc/virtual/2025/poster/120085) · [GitHub](https://github.com/zy-ansel/DiT-ST) |
+| **HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation** | [Paper](https://neurips.cc/virtual/2025/poster/118982) · [GitHub](https://github.com/Gen-Verse/HermesFlow) |
+| **LEDiT:  Your Length-Extrapolatable Diffusion Transformer without Positional Encoding** | [Paper](https://neurips.cc/virtual/2025/poster/119583) |
+| **LaViDa: A Large Diffusion Model for Vision-Language Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/119782) |
+| **MMaDA: Multimodal Large Diffusion Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/115311) · [GitHub](https://github.com/Gen-Verse/MMaDA) |
+| **Personalized Visual Content Generation in Conversational Systems** | [Paper](https://neurips.cc/virtual/2025/poster/119795) |
+| **Promptable 3-D Object Localization with Latent Diffusion Models** | [Paper](https://neurips.cc/virtual/2025/poster/119053) |
+| **Rare Text Semantics Were Always There in Your Diffusion Transformer** | [Paper](https://neurips.cc/virtual/2025/poster/115559) |
+| **Reliable Lifelong Multimodal Editing: Conflict-Aware Retrieval Meets Multi-Level Guidance** | [Paper](https://neurips.cc/virtual/2025/poster/116635) |
+| **Table2LaTeX-RL: High-Fidelity LaTeX Code Generation from Table Images via Reinforced Multimodal Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/120302) · [GitHub](https://github.com/newLLing/Table2LaTeX-RL) |
+| **UniGen: Enhanced Training & Test-Time Strategies for Unified Multimodal Understanding and Generation** | [Paper](https://neurips.cc/virtual/2025/poster/116520) |
+| **UniTok: a Unified Tokenizer for Visual Generation and Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/116864) · [Project](https://foundationvision.github.io/UniTok/) |
+| **Vision as a Dialect: Unifying Visual Understanding and Generation via Text-Aligned Representations** | [Paper](https://neurips.cc/virtual/2025/poster/118811) · [Project](https://tar.csuhan.com/) |
+
+## Medical & Scientific
+
+| Paper | Links |
+|-------|-------|
+| **ExGra-Med: Extended Context Graph Alignment for Medical Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/117826) |
+| **From Human Attention to Diagnosis: Semantic Patch-Level Integration of Vision-Language Models in Medical Imaging** | [Paper](https://neurips.cc/virtual/2025/poster/116279) |
+| **MedSG-Bench: A Benchmark for Medical Image Sequences Grounding** | [Paper](https://neurips.cc/virtual/2025/poster/121815) · [GitHub](https://github.com/Yuejingkun/MedSG-Bench) |
+| **Pancakes: Consistent Multi-Protocol Image Segmentation Across Biomedical Domains** | [Paper](https://neurips.cc/virtual/2025/poster/119522) |
+| **Physics-informed Neural Operator for Pansharpening** | [Paper](https://neurips.cc/virtual/2025/poster/115598) |
+| **RadZero: Similarity-Based Cross-Attention for Explainable Vision-Language Alignment in Chest X-ray with Zero-Shot Multi-Task Capability** | [Paper](https://neurips.cc/virtual/2025/poster/117595) · [GitHub](https://github.com/deepnoid-ai/RadZero) |
+| **SMMILE: An expert-driven benchmark for multimodal medical in-context learning** | [Paper](https://neurips.cc/virtual/2025/poster/121577) · [Project](https://smmile-benchmark.github.io/) |
+| **THUNDER: Tile-level Histopathology image UNDERstanding benchmark** | [Paper](https://neurips.cc/virtual/2025/poster/121557) · [Project](https://mics-lab.github.io/thunder/) |
+| **Toward a Vision-Language Foundation Model for Medical Data: Multimodal Dataset and Benchmarks for Vietnamese PET/CT Report Generation** | [Paper](https://neurips.cc/virtual/2025/poster/121676) |
+| **Towards Physics-informed Spatial Intelligence with Human Priors: An Autonomous Driving Pilot Study** | [Paper](https://neurips.cc/virtual/2025/poster/115976) · [Project](https://guanlinwu123.github.io/sigbench/) |
+
+## Multimodal Alignment & Pre-training
+
+| Paper | Links |
+|-------|-------|
+| **Aligning by Misaligning: Boundary-aware Curriculum Learning for Multimodal Alignment** | [Paper](https://neurips.cc/virtual/2025/poster/118266) |
+| **Amplifying Prominent Representations in Multimodal Learning  via Variational Dirichlet Process** | [Paper](https://neurips.cc/virtual/2025/poster/117022) |
+| **Automatic Synthetic Data and Fine-grained Adaptive Feature Alignment for Composed Person Retrieval** | [Paper](https://neurips.cc/virtual/2025/poster/115728) · [GitHub](https://github.com/Delong-liu-bupt/Composed_Person_Retrieval) |
+| **Continual Multimodal Contrastive Learning** | [Paper](https://neurips.cc/virtual/2025/poster/116428) |
+| **GRIT: Teaching MLLMs to Think with Images** | [Paper](https://neurips.cc/virtual/2025/poster/118020) · [Project](https://grounded-reasoning.github.io/) |
+| **Gaze-VLM: Bridging Gaze and VLMs through Attention Regularization for Egocentric Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/120280) |
+| **Guiding Cross-Modal Representations with MLLM Priors via Preference Alignment** | [Paper](https://neurips.cc/virtual/2025/poster/116450) |
+| **MimeQA: Towards Socially-Intelligent Nonverbal Foundation Models** | [Paper](https://neurips.cc/virtual/2025/poster/121711) |
+| **MokA: Multimodal Low-Rank Adaptation for MLLMs** | [Paper](https://neurips.cc/virtual/2025/poster/116047) · [Project](https://gewu-lab.github.io/MokA/) |
+| **Neighbor-aware Contrastive Disambiguation for Cross-Modal Hashing with Redundant Annotations** | [Paper](https://neurips.cc/virtual/2025/poster/136220) · [GitHub](https://github.com/Rose-bud/NACD) |
+| **SpaceServe: Spatial Multiplexing of Complementary Encoders and Decoders for Multimodal LLMs** | [Paper](https://neurips.cc/virtual/2025/poster/115356) · [GitHub](https://github.com/gofreelee/SpaceServe) |
+| **With Limited Data for Multimodal Alignment, Let the STRUCTURE Guide You** | [Paper](https://neurips.cc/virtual/2025/poster/118769) · [Project](https://brbiclab.epfl.ch/projects/structure/) |
+| **Zooming from Context to Cue: Hierarchical Preference Optimization for Multi-Image MLLMs** | [Paper](https://neurips.cc/virtual/2025/poster/116709) |
+
+## Perception & Grounding
+
+| Paper | Links |
+|-------|-------|
+| **Accelerating Multimodal Large Language Models via Dynamic Visual-Token Exit and the Empirical Findings** | [Paper](https://neurips.cc/virtual/2025/poster/118110) |
+| **Adaptive Re-calibration Learning for Balanced Multimodal Intention Recognition** | [Paper](https://neurips.cc/virtual/2025/poster/116409) |
+| **Aha! - Predicting What Matters Next: Online Highlight Detection Without Looking Ahead** | [Paper](https://neurips.cc/virtual/2025/poster/119707) · [arXiv](https://arxiv.org/abs/2509.16421) |
+| **Attention! Your Vision Language Model Could Be Maliciously Manipulated** | [Paper](https://neurips.cc/virtual/2025/poster/119984) · [GitHub](https://github.com/Trustworthy-AI-Group/VMA) |
+| **ChA-MAEViT: Unifying Channel-Aware Masked Autoencoders and Multi-Channel Vision Transformers for Improved Cross-Channel Learning** | [Paper](https://neurips.cc/virtual/2025/poster/118668) |
+| **CoFFT: Chain of Foresight-Focus Thought for Visual Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/119460) |
+| **ControlFusion: A Controllable Image Fusion Network with Language-Vision Degradation Prompts** | [Paper](https://neurips.cc/virtual/2025/poster/117275) · [GitHub](https://github.com/Linfeng-Tang/ControlFusion) |
+| **Cross-modal Associations in Vision and Language Models: Revisiting the Bouba-Kiki Effect** | [Paper](https://neurips.cc/virtual/2025/poster/116707) |
+| **Don't Just Chase “Highlighted Tokens” in MLLMs: Revisiting Visual Holistic Context Retention** | [Paper](https://neurips.cc/virtual/2025/poster/115059) · [GitHub](https://github.com/obananas/HoloV) |
+| **EOC-Bench: Can MLLMs Identify, Recall, and Forecast Objects in an Egocentric World?** | [Paper](https://neurips.cc/virtual/2025/poster/121637) · [Project](https://circleradon.github.io/EOCBench/) |
+| **EgoBlind: Towards Egocentric Visual Assistance for the Blind** | [Paper](https://neurips.cc/virtual/2025/poster/121565) |
+| **End-to-End Vision Tokenizer Tuning** | [Paper](https://neurips.cc/virtual/2025/poster/116026) |
+| **Enhancing Vision-Language Model Reliability with Uncertainty-Guided Dropout Decoding** | [Paper](https://neurips.cc/virtual/2025/poster/118572) · [GitHub](https://github.com/kigb/DropoutDecoding) |
+| **FedMGP: Personalized Federated Learning with Multi-Group Text-Visual Prompts** | [Paper](https://neurips.cc/virtual/2025/poster/119165) |
+| **Few-Shot Learning from Gigapixel Images via Hierarchical Vision-Language Alignment and Modeling** | [Paper](https://neurips.cc/virtual/2025/poster/117369) · [GitHub](https://github.com/bryanwong17/HiVE-MIL) |
+| **Find your Needle: Small Object Image Retrieval via Multi-Object Attention Optimization** | [Paper](https://neurips.cc/virtual/2025/poster/116342) · [Project](https://pihash2k.github.io/findyourneedle.github.io/) |
+| **FlySearch: Exploring how vision-language models explore** | [Paper](https://neurips.cc/virtual/2025/poster/121733) · [Project](https://flysearch.gmum.net/) |
+| **GUIDED: Granular Understanding via Identification, Detection, and Discrimination for Fine-Grained Open-Vocabulary Object Detection** | [Paper](https://neurips.cc/virtual/2025/poster/118040) |
+| **INST-IT: Boosting Instance Understanding via Explicit Visual Prompt Instruction Tuning** | [Paper](https://neurips.cc/virtual/2025/poster/119587) · [Project](https://inst-it.github.io/) |
+| **LISAt: Language-Instructed Segmentation Assistant for Satellite Imagery** | [Paper](https://neurips.cc/virtual/2025/poster/121596) · [Project](https://lisat-bair.github.io/LISAt/) |
+| **LangHOPS: Language Grounded Hierarchical Open-Vocabulary Part Segmentation** | [Paper](https://neurips.cc/virtual/2025/poster/115443) |
+| **MDReID: Modality-Decoupled Learning for Any-to-Any Multi-Modal Object Re-Identification** | [Paper](https://neurips.cc/virtual/2025/poster/119678) · [GitHub](https://github.com/stone96123/MDReID) |
+| **Native Segmentation Vision Transformers** | [Paper](https://neurips.cc/virtual/2025/poster/117718) · [Project](https://research.nvidia.com/labs/dvl/projects/native-segmentation/) |
+| **NegoCollab: A Common Representation Negotiation Approach for Heterogeneous Collaborative Perception** | [Paper](https://neurips.cc/virtual/2025/poster/119565) |
+| **Object-centric binding in Contrastive Language-Image Pretraining** | [Paper](https://neurips.cc/virtual/2025/poster/116977) |
+| **On the rankability of visual embeddings** | [Paper](https://neurips.cc/virtual/2025/poster/115697) |
+| **Perception Encoder: The best visual embeddings are not at the output of the network** | [Paper](https://neurips.cc/virtual/2025/poster/118805) |
+| **PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/119876) · [GitHub](https://github.com/facebookresearch/perception_models) |
+| **Prioritizing Perception-Guided Self-Supervision: A New Paradigm for Causal Modeling in End-to-End Autonomous Driving** | [Paper](https://neurips.cc/virtual/2025/poster/118209) |
+| **Q-Insight: Understanding Image Quality via Visual Reinforcement Learning** | [Paper](https://neurips.cc/virtual/2025/poster/119363) · [GitHub](https://github.com/bytedance/Q-Insight) |
+| **REOrdering Patches Improves Vision Models** | [Paper](https://neurips.cc/virtual/2025/poster/116773) |
+| **RESAnything: Attribute Prompting for Arbitrary Referring Segmentation** | [Paper](https://neurips.cc/virtual/2025/poster/119834) |
+| **SAVVY: Spatial Awareness via Audio-Visual LLMs through Seeing and Hearing** | [Paper](https://neurips.cc/virtual/2025/poster/115001) |
+| **SaFiRe: Saccade-Fixation Reiteration with Mamba for Referring Image Segmentation** | [Paper](https://neurips.cc/virtual/2025/poster/117451) · [Project](https://zhenjiemao.github.io/SaFiRe/) |
+| **Seeking and Updating with Live Visual Knowledge** | [Paper](https://neurips.cc/virtual/2025/poster/121414) · [Project](https://livevqa.github.io/) |
+| **ShotBench: Expert-Level Cinematic Understanding in Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/120248) · [Project](https://vchitect.github.io/ShotBench-project/) |
+| **Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence** | [Paper](https://neurips.cc/virtual/2025/poster/117993) · [Project](https://diankun-wu.github.io/Spatial-MLLM/) |
+| **Test-Time Adaptation of Vision-Language Models for Open-Vocabulary Semantic Segmentation** | [Paper](https://neurips.cc/virtual/2025/poster/119296) · [GitHub](https://github.com/dosowiechi/MLMP) |
+| **Test-Time Adaptive Object Detection with Foundation Model** | [Paper](https://neurips.cc/virtual/2025/poster/118473) |
+| **Towards General Continuous Memory for Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/117409) |
+| **Towards Reliable and Holistic Visual In-Context Learning Prompt Selection** | [Paper](https://neurips.cc/virtual/2025/poster/119157) |
+| **Towards Self-Refinement of Vision-Language Models with Triangular Consistency** | [Paper](https://neurips.cc/virtual/2025/poster/118260) |
+| **Unified Reinforcement and Imitation Learning for Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/119665) · [Project](https://byungkwanlee.github.io/RIL-page/) |
+| **VITRIX-UniViTAR: Unified Vision Transformer with Native Resolution** | [Paper](https://neurips.cc/virtual/2025/poster/118217) |
+| **VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning** | [Paper](https://neurips.cc/virtual/2025/poster/119918) · [Project](https://tiger-ai-lab.github.io/VL-Rethinker/) |
+| **VL-SAE: Interpreting and Enhancing Vision-Language Alignment with a Unified Concept Set** | [Paper](https://neurips.cc/virtual/2025/poster/120232) · [GitHub](https://github.com/ssfgunner/VL-SAE) |
+| **VL-SAM-V2: Open-World Object Detection with General and Specific Query Fusion** | [Paper](https://neurips.cc/virtual/2025/poster/118607) |
+| **VaMP: Variational Multi-Modal Prompt Learning for Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/119603) · [Project](https://visual-ai.github.io/vamp) |
+| **ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs** | [Paper](https://neurips.cc/virtual/2025/poster/116500) |
+| **ViSpec: Accelerating Vision-Language Models with Vision-Aware Speculative Decoding** | [Paper](https://neurips.cc/virtual/2025/poster/115277) · [GitHub](https://github.com/KangJialiang/ViSpec) |
+| **Vision Function Layer in Multimodal LLMs** | [Paper](https://neurips.cc/virtual/2025/poster/116134) |
+| **Vision Transformers with Self-Distilled Registers** | [Paper](https://neurips.cc/virtual/2025/poster/117648) |
+| **VisualLens: Personalization through Task-Agnostic Visual History** | [Paper](https://neurips.cc/virtual/2025/poster/119005) |
+| **Watch and Listen: Understanding Audio-Visual-Speech Moments with Multimodal LLM** | [Paper](https://neurips.cc/virtual/2025/poster/116376) |
+
+## Reasoning & Chain-of-Thought
+
+| Paper | Links |
+|-------|-------|
+| **A2Seek: Towards Reasoning-Centric Benchmark for Aerial Anomaly Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/121562) · [Project](https://2-mo.github.io/A2Seek) |
+| **Actial: Activate Spatial Reasoning Ability of Multimodal Large Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/116431) |
+| **ChartMuseum: Testing Visual Reasoning Capabilities of Large Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/121447) · [GitHub](https://github.com/Liyan06/ChartMuseum) · [Project](https://chartmuseum-leaderboard.github.io/) |
+| **ColorBench: Can VLMs See and Understand the Colorful World? A Comprehensive Benchmark for Color Perception, Reasoning, and Robustness** | [Paper](https://neurips.cc/virtual/2025/poster/121433) |
+| **EvolvedGRPO: Unlocking Reasoning in LVLMs via Progressive Instruction Evolution** | [Paper](https://neurips.cc/virtual/2025/poster/115560) · [GitHub](https://github.com/SHENZHEBEI/EvolvedGRPO) |
+| **Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs** | [Paper](https://neurips.cc/virtual/2025/poster/118573) · [Project](https://plan-lab.github.io/spatialreasoner) |
+| **First SFT, Second RL, Third UPT: Continual Improving Multi-Modal LLM Reasoning via Unsupervised Post-Training** | [Paper](https://neurips.cc/virtual/2025/poster/118898) · [GitHub](https://github.com/waltonfuture/MM-UPT) |
+| **FlowCut: Rethinking Redundancy via Information Flow for Efficient Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/118495) · [GitHub](https://github.com/TungChintao/FlowCut) |
+| **GRE Suite: Geo-localization Inference via Fine-Tuned Vision-Language Models and Enhanced Reasoning Chains** | [Paper](https://neurips.cc/virtual/2025/poster/119959) |
+| **Grounded Reinforcement Learning for Visual Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/120218) · [Project](https://visually-grounded-rl.github.io/) |
+| **HoloLLM: Multisensory Foundation Model for Language-Grounded Human Sensing and Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/117109) · [Project](https://ntumars.github.io/project/HoloLLM/) |
+| **Knot So Simple: A Minimalistic Environment for Spatial Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/121700) · [Project](https://lil-lab.github.io/knotgym/) |
+| **MINT-CoT: Enabling Interleaved Visual Tokens in Mathematical Chain-of-Thought Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/115416) · [GitHub](https://github.com/xinyan-cxy/MINT-CoT) |
+| **MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agricultural Expert-Guided Conversations** | [Paper](https://neurips.cc/virtual/2025/poster/121750) · [Project](https://mirage-benchmark.github.io/) |
+| **MM-OPERA: Benchmarking Open-ended Association Reasoning for Large Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/121826) · [GitHub](https://github.com/MM-OPERA-Bench/MM-OPERA) |
+| **MMMG: A Massive, Multidisciplinary, Multi-Tier Generation Benchmark for Text-to-Image Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/121491) · [Project](https://mmmgbench.github.io/) |
+| **MMPerspective: Do MLLMs Understand Perspective? A Comprehensive Benchmark for Perspective Perception, Reasoning, and Robustness** | [Paper](https://neurips.cc/virtual/2025/poster/121606) · [Project](https://yunlong10.github.io/MMPerspective/) |
+| **MiCo: Multi-image Contrast for Reinforcement Visual Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/117848) |
+| **MindOmni: Unleashing Reasoning Generation in Vision Language Models with RGPO** | [Paper](https://neurips.cc/virtual/2025/poster/118384) · [GitHub](https://github.com/TencentARC/MindOmni) |
+| **More Thinking, Less Seeing? Assessing Amplified Hallucination in Multimodal Reasoning Models** | [Paper](https://neurips.cc/virtual/2025/poster/118585) · [Project](https://mlrm-halu.github.io/) |
+| **Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search** | [Paper](https://neurips.cc/virtual/2025/poster/116245) · [GitHub](https://github.com/HJYao00/Mulberry/tree/main) |
+| **Multi-step Visual Reasoning with Visual Tokens Scaling and Verification** | [Paper](https://neurips.cc/virtual/2025/poster/115184) |
+| **Multimodal Causal Reasoning for UAV Object Detection** | [Paper](https://neurips.cc/virtual/2025/poster/118849) |
+| **NoisyGRPO: Incentivizing Multimodal CoT Reasoning via Noise Injection and Bayesian Estimation** | [Paper](https://neurips.cc/virtual/2025/poster/115801) · [Project](https://artanic30.github.io/project_pages/NoisyGRPO/) |
+| **OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Visual Text Localization and Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/121614) · [GitHub](https://github.com/Yuliang-Liu/MultimodalOCR) |
+| **Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration** | [Paper](https://neurips.cc/virtual/2025/poster/119706) · [Project](https://aim-uofa.github.io/OmniR1/) |
+| **R1-ShareVL: Incentivizing Reasoning Capabilities of Multimodal Large Language Models via Share-GRPO** | [Paper](https://neurips.cc/virtual/2025/poster/116391) · [GitHub](https://github.com/HJYao00/R1-ShareVL) |
+| **Recognition through Reasoning: Reinforcing Image Geo-localization with Large Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/115287) · [GitHub](https://github.com/lingli1996/GLOBE) |
+| **Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing** | [Paper](https://neurips.cc/virtual/2025/poster/115095) · [GitHub](https://github.com/AntResearchNLP/ViLaSR) |
+| **Rethinking Multimodal Learning from the Perspective of Mitigating Classification Ability Disproportion** | [Paper](https://neurips.cc/virtual/2025/poster/118166) |
+| **Retrv-R1: A Reasoning-Driven MLLM Framework for Universal and Efficient Multimodal Retrieval** | [Paper](https://neurips.cc/virtual/2025/poster/119582) |
+| **SRPO: Enhancing Multimodal LLM Reasoning via Reflection-Aware Reinforcement Learning** | [Paper](https://neurips.cc/virtual/2025/poster/116679) · [Project](https://srpo.pages.dev/) |
+| **SURDS: Benchmarking Spatial Understanding and Reasoning in Driving Scenarios with Vision Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/121802) · [GitHub](https://github.com/xiandaguo/drive-mllm) |
+| **SeePhys:  Does Seeing Help Thinking? – Benchmarking Vision-Based Physics Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/121799) · [Project](https://seephys.github.io/) |
+| **SoTA with Less: MCTS-Guided Sample Selection for Data-Efficient Visual Reasoning Self-Improvement** | [Paper](https://neurips.cc/virtual/2025/poster/118230) |
+| **Struct2D: A Perception-Guided Framework for Spatial Reasoning in MLLMs** | [Paper](https://neurips.cc/virtual/2025/poster/115762) |
+| **To Think or Not To Think: A Study of Thinking in Rule-Based Visual Reinforcement Fine-Tuning** | [Paper](https://neurips.cc/virtual/2025/poster/117405) · [GitHub](https://github.com/minglllli/CLS-RL/tree/main) |
+| **Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition** | [Paper](https://neurips.cc/virtual/2025/poster/116052) · [GitHub](https://github.com/BFlameSwift/Uni-MuMER) |
+| **UniPixel: Unified Object Referring and Segmentation for Pixel-Level Visual Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/120066) · [Project](https://polyu-chenlab.github.io/unipixel/) |
+| **Unified Multimodal Chain-of-Thought Reward Model through Reinforcement Fine-Tuning** | [Paper](https://neurips.cc/virtual/2025/poster/117965) · [Project](https://codegoat24.github.io/UnifiedReward/think) |
+| **Unveiling Chain of Step Reasoning for Vision-Language Models with Fine-grained Rewards** | [Paper](https://neurips.cc/virtual/2025/poster/119237) · [GitHub](https://github.com/baaivision/CoS) |
+| **Unveiling the Compositional Ability Gap in Vision-Language Reasoning Model** | [Paper](https://neurips.cc/virtual/2025/poster/118747) · [GitHub](https://github.com/ltl3A87/ComPA) |
+| **VLM-R³: Region Recognition, Reasoning, and Refinement for Enhanced Multimodal Chain-of-Thought** | [Paper](https://neurips.cc/virtual/2025/poster/119135) |
+| **VLMs have Tunnel Vision: Evaluating Nonlocal Visual Reasoning in Leading VLMs** | [Paper](https://neurips.cc/virtual/2025/poster/117181) · [Project](https://vlmtunnel.github.io/) |
+| **Visual Structures Help Visual Reasoning:  Addressing the Binding Problem in LVLMs** | [Paper](https://neurips.cc/virtual/2025/poster/117879) · [Project](https://sharif-ml-lab.github.io/VISER/) |
+| **Visual Thoughts: A Unified Perspective of Understanding Multimodal Chain-of-Thought** | [Paper](https://neurips.cc/virtual/2025/poster/115243) |
+| **VisualQuality-R1: Reasoning-Induced Image Quality Assessment via Reinforcement Learning to Rank** | [Paper](https://neurips.cc/virtual/2025/poster/115506) · [GitHub](https://github.com/TianheWu/VisualQuality-R1) |
+
+## Safety, Trustworthiness & Hallucination
+
+| Paper | Links |
+|-------|-------|
+| **A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1** | [Paper](https://neurips.cc/virtual/2025/poster/119497) · [GitHub](https://github.com/VILA-Lab/M-Attack) |
+| **Decoupling Contrastive Decoding: Robust Hallucination Mitigation in Multimodal Large Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/118235) |
+| **Directed-Tokens: A Robust Multi-Modality Alignment Approach to Large Language-Vision Models** | [Paper](https://neurips.cc/virtual/2025/poster/116581) |
+| **Discovering Compositional Hallucinations in LVLMs** | [Paper](https://neurips.cc/virtual/2025/poster/119442) |
+| **Generate, but Verify: Reducing Hallucination in Vision-Language Models with Retrospective Resampling** | [Paper](https://neurips.cc/virtual/2025/poster/120029) · [Project](https://reverse-vlm.github.io/) |
+| **Hallucination at a Glance: Controlled Visual Edits and Fine-Grained Multimodal Learning** | [Paper](https://neurips.cc/virtual/2025/poster/115500) |
+| **Image Token Matters: Mitigating Hallucination in Discrete Tokenizer-based Large Vision-Language Models via Latent Editing** | [Paper](https://neurips.cc/virtual/2025/poster/117602) |
+| **Intervene-All-Paths: Unified Mitigation of LVLM Hallucinations across Alignment Formats** | [Paper](https://neurips.cc/virtual/2025/poster/118894) · [GitHub](https://github.com/SooLab/AllPath) |
+| **Language‑Bias‑Resilient Visual Question Answering via Adaptive Multi‑Margin Collaborative Debiasing** | [Paper](https://neurips.cc/virtual/2025/poster/115795) |
+| **Miss-ReID: Delivering Robust Multi-Modality Object Re-Identification Despite Missing Modalities** | [Paper](https://neurips.cc/virtual/2025/poster/119663) |
+| **Mitigating Hallucination Through Theory-Consistent Symmetric Multimodal Preference Optimization** | [Paper](https://neurips.cc/virtual/2025/poster/115608) · [GitHub](https://github.com/Liuwq-bit/SymMPO) |
+| **On Epistemic Uncertainty of Visual Tokens for Object Hallucinations in Large Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/116514) · [Project](https://keenyjin.github.io/epistemic/) |
+| **Partition-Then-Adapt: Combating Prediction Bias for Reliable Multi-Modal Test-Time Adaptation** | [Paper](https://neurips.cc/virtual/2025/poster/117876) · [GitHub](https://github.com/MPI-Lab/PTA) |
+| **Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs** | [Paper](https://neurips.cc/virtual/2025/poster/115828) · [Project](https://kejiazhang-robust.github.io/poison-cure-lvm) |
+| **Projection-Manifold Regularized Latent Diffusion for Robust General Image Fusion** | [Paper](https://neurips.cc/virtual/2025/poster/117987) |
+| **Scaling Laws for Robust Comparison of Open Foundation Language-Vision Models and Datasets** | [Paper](https://neurips.cc/virtual/2025/poster/117085) |
+| **Seeing Sound, Hearing Sight: Uncovering Modality Bias and Conflict of AI models in Sound Localization** | [Paper](https://neurips.cc/virtual/2025/poster/118212) · [GitHub](https://github.com/CuriseJia/NeurIPS2025-Spotlight-SSHS) |
+| **Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/117155) |
+| **Systematic Reward Gap Optimization for Mitigating VLM Hallucinations** | [Paper](https://neurips.cc/virtual/2025/poster/116851) · [Project](https://tpr-dpo.github.io/) |
+| **Towards Robust Uncertainty Calibration for Composed Image Retrieval** | [Paper](https://neurips.cc/virtual/2025/poster/118555) |
+| **Understanding and Rectifying Safety Perception Distortion in VLMs** | [Paper](https://neurips.cc/virtual/2025/poster/118667) |
+
+## Video Understanding & Generation
 
 | Paper | Links |
 |-------|-------|
@@ -169,284 +446,7 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 | **WorldModelBench: Judging Video Generation Models As World Models** | [Paper](https://neurips.cc/virtual/2025/poster/121570) · [Project](https://worldmodelbench-team.github.io/) |
 | **iFinder: Structured Zero-Shot Vision-Based LLM Grounding for Dash-Cam Video Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/116305) |
 
-## 👁️ Perception & Grounding
-
-| Paper | Links |
-|-------|-------|
-| **Accelerating Multimodal Large Language Models via Dynamic Visual-Token Exit and the Empirical Findings** | [Paper](https://neurips.cc/virtual/2025/poster/118110) |
-| **Adaptive Re-calibration Learning for Balanced Multimodal Intention Recognition** | [Paper](https://neurips.cc/virtual/2025/poster/116409) |
-| **Aha! - Predicting What Matters Next: Online Highlight Detection Without Looking Ahead** | [Paper](https://neurips.cc/virtual/2025/poster/119707) · [arXiv](https://arxiv.org/abs/2509.16421) |
-| **Attention! Your Vision Language Model Could Be Maliciously Manipulated** | [Paper](https://neurips.cc/virtual/2025/poster/119984) · [GitHub](https://github.com/Trustworthy-AI-Group/VMA) |
-| **ChA-MAEViT: Unifying Channel-Aware Masked Autoencoders and Multi-Channel Vision Transformers for Improved Cross-Channel Learning** | [Paper](https://neurips.cc/virtual/2025/poster/118668) |
-| **CoFFT: Chain of Foresight-Focus Thought for Visual Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/119460) |
-| **ControlFusion: A Controllable Image Fusion Network with Language-Vision Degradation Prompts** | [Paper](https://neurips.cc/virtual/2025/poster/117275) · [GitHub](https://github.com/Linfeng-Tang/ControlFusion) |
-| **Cross-modal Associations in Vision and Language Models: Revisiting the Bouba-Kiki Effect** | [Paper](https://neurips.cc/virtual/2025/poster/116707) |
-| **Don't Just Chase “Highlighted Tokens” in MLLMs: Revisiting Visual Holistic Context Retention** | [Paper](https://neurips.cc/virtual/2025/poster/115059) · [GitHub](https://github.com/obananas/HoloV) |
-| **EOC-Bench: Can MLLMs Identify, Recall, and Forecast Objects in an Egocentric World?** | [Paper](https://neurips.cc/virtual/2025/poster/121637) · [Project](https://circleradon.github.io/EOCBench/) |
-| **EgoBlind: Towards Egocentric Visual Assistance for the Blind** | [Paper](https://neurips.cc/virtual/2025/poster/121565) |
-| **End-to-End Vision Tokenizer Tuning** | [Paper](https://neurips.cc/virtual/2025/poster/116026) |
-| **Enhancing Vision-Language Model Reliability with Uncertainty-Guided Dropout Decoding** | [Paper](https://neurips.cc/virtual/2025/poster/118572) · [GitHub](https://github.com/kigb/DropoutDecoding) |
-| **FedMGP: Personalized Federated Learning with Multi-Group Text-Visual Prompts** | [Paper](https://neurips.cc/virtual/2025/poster/119165) |
-| **Few-Shot Learning from Gigapixel Images via Hierarchical Vision-Language Alignment and Modeling** | [Paper](https://neurips.cc/virtual/2025/poster/117369) · [GitHub](https://github.com/bryanwong17/HiVE-MIL) |
-| **Find your Needle: Small Object Image Retrieval via Multi-Object Attention Optimization** | [Paper](https://neurips.cc/virtual/2025/poster/116342) · [Project](https://pihash2k.github.io/findyourneedle.github.io/) |
-| **FlySearch: Exploring how vision-language models explore** | [Paper](https://neurips.cc/virtual/2025/poster/121733) · [Project](https://flysearch.gmum.net/) |
-| **GUIDED: Granular Understanding via Identification, Detection, and Discrimination for Fine-Grained Open-Vocabulary Object Detection** | [Paper](https://neurips.cc/virtual/2025/poster/118040) |
-| **INST-IT: Boosting Instance Understanding via Explicit Visual Prompt Instruction Tuning** | [Paper](https://neurips.cc/virtual/2025/poster/119587) · [Project](https://inst-it.github.io/) |
-| **LISAt: Language-Instructed Segmentation Assistant for Satellite Imagery** | [Paper](https://neurips.cc/virtual/2025/poster/121596) · [Project](https://lisat-bair.github.io/LISAt/) |
-| **LangHOPS: Language Grounded Hierarchical Open-Vocabulary Part Segmentation** | [Paper](https://neurips.cc/virtual/2025/poster/115443) |
-| **MDReID: Modality-Decoupled Learning for Any-to-Any Multi-Modal Object Re-Identification** | [Paper](https://neurips.cc/virtual/2025/poster/119678) · [GitHub](https://github.com/stone96123/MDReID) |
-| **Native Segmentation Vision Transformers** | [Paper](https://neurips.cc/virtual/2025/poster/117718) · [Project](https://research.nvidia.com/labs/dvl/projects/native-segmentation/) |
-| **NegoCollab: A Common Representation Negotiation Approach for Heterogeneous Collaborative Perception** | [Paper](https://neurips.cc/virtual/2025/poster/119565) |
-| **Object-centric binding in Contrastive Language-Image Pretraining** | [Paper](https://neurips.cc/virtual/2025/poster/116977) |
-| **On the rankability of visual embeddings** | [Paper](https://neurips.cc/virtual/2025/poster/115697) |
-| **Perception Encoder: The best visual embeddings are not at the output of the network** | [Paper](https://neurips.cc/virtual/2025/poster/118805) |
-| **PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/119876) · [GitHub](https://github.com/facebookresearch/perception_models) |
-| **Prioritizing Perception-Guided Self-Supervision: A New Paradigm for Causal Modeling in End-to-End Autonomous Driving** | [Paper](https://neurips.cc/virtual/2025/poster/118209) |
-| **Q-Insight: Understanding Image Quality via Visual Reinforcement Learning** | [Paper](https://neurips.cc/virtual/2025/poster/119363) · [GitHub](https://github.com/bytedance/Q-Insight) |
-| **REOrdering Patches Improves Vision Models** | [Paper](https://neurips.cc/virtual/2025/poster/116773) |
-| **RESAnything: Attribute Prompting for Arbitrary Referring Segmentation** | [Paper](https://neurips.cc/virtual/2025/poster/119834) |
-| **SAVVY: Spatial Awareness via Audio-Visual LLMs through Seeing and Hearing** | [Paper](https://neurips.cc/virtual/2025/poster/115001) |
-| **SaFiRe: Saccade-Fixation Reiteration with Mamba for Referring Image Segmentation** | [Paper](https://neurips.cc/virtual/2025/poster/117451) · [Project](https://zhenjiemao.github.io/SaFiRe/) |
-| **Seeking and Updating with Live Visual Knowledge** | [Paper](https://neurips.cc/virtual/2025/poster/121414) · [Project](https://livevqa.github.io/) |
-| **ShotBench: Expert-Level Cinematic Understanding in Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/120248) · [Project](https://vchitect.github.io/ShotBench-project/) |
-| **Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence** | [Paper](https://neurips.cc/virtual/2025/poster/117993) · [Project](https://diankun-wu.github.io/Spatial-MLLM/) |
-| **Test-Time Adaptation of Vision-Language Models for Open-Vocabulary Semantic Segmentation** | [Paper](https://neurips.cc/virtual/2025/poster/119296) · [GitHub](https://github.com/dosowiechi/MLMP) |
-| **Test-Time Adaptive Object Detection with Foundation Model** | [Paper](https://neurips.cc/virtual/2025/poster/118473) |
-| **Towards General Continuous Memory for Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/117409) |
-| **Towards Reliable and Holistic Visual In-Context Learning Prompt Selection** | [Paper](https://neurips.cc/virtual/2025/poster/119157) |
-| **Towards Self-Refinement of Vision-Language Models with Triangular Consistency** | [Paper](https://neurips.cc/virtual/2025/poster/118260) |
-| **Unified Reinforcement and Imitation Learning for Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/119665) · [Project](https://byungkwanlee.github.io/RIL-page/) |
-| **VITRIX-UniViTAR: Unified Vision Transformer with Native Resolution** | [Paper](https://neurips.cc/virtual/2025/poster/118217) |
-| **VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning** | [Paper](https://neurips.cc/virtual/2025/poster/119918) · [Project](https://tiger-ai-lab.github.io/VL-Rethinker/) |
-| **VL-SAE: Interpreting and Enhancing Vision-Language Alignment with a Unified Concept Set** | [Paper](https://neurips.cc/virtual/2025/poster/120232) · [GitHub](https://github.com/ssfgunner/VL-SAE) |
-| **VL-SAM-V2: Open-World Object Detection with General and Specific Query Fusion** | [Paper](https://neurips.cc/virtual/2025/poster/118607) |
-| **VaMP: Variational Multi-Modal Prompt Learning for Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/119603) · [Project](https://visual-ai.github.io/vamp) |
-| **ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs** | [Paper](https://neurips.cc/virtual/2025/poster/116500) |
-| **ViSpec: Accelerating Vision-Language Models with Vision-Aware Speculative Decoding** | [Paper](https://neurips.cc/virtual/2025/poster/115277) · [GitHub](https://github.com/KangJialiang/ViSpec) |
-| **Vision Function Layer in Multimodal LLMs** | [Paper](https://neurips.cc/virtual/2025/poster/116134) |
-| **Vision Transformers with Self-Distilled Registers** | [Paper](https://neurips.cc/virtual/2025/poster/117648) |
-| **VisualLens: Personalization through Task-Agnostic Visual History** | [Paper](https://neurips.cc/virtual/2025/poster/119005) |
-| **Watch and Listen: Understanding Audio-Visual-Speech Moments with Multimodal LLM** | [Paper](https://neurips.cc/virtual/2025/poster/116376) |
-
-## 📊 Benchmarks & Evaluation
-
-| Paper | Links |
-|-------|-------|
-| **CAPability: A Comprehensive Visual Caption Benchmark for Evaluating Both Correctness and Thoroughness** | [Paper](https://neurips.cc/virtual/2025/poster/121398) · [Project](https://capability-bench.github.io/) |
-| **CHOICE: Benchmarking the Remote Sensing Capabilities of Large Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/121749) · [GitHub](https://github.com/ShawnAn-WHU/CHOICE) · [Project](https://rs-choice.github.io/) |
-| **Can Large Language Models Help Multimodal Language Analysis? MMLA: A Comprehensive Benchmark** | [Paper](https://neurips.cc/virtual/2025/poster/121723) · [GitHub](https://github.com/thuiar/MMLA) |
-| **Counterfactual Evolution of Multimodal Datasets via Visual Programming** | [Paper](https://neurips.cc/virtual/2025/poster/117179) |
-| **CrypticBio: A Large Multimodal Dataset for Visually Confusing Species** | [Paper](https://neurips.cc/virtual/2025/poster/121654) · [Project](https://georgianagmanolache.github.io/crypticbio) |
-| **DAVE: Diagnostic benchmark for Audio Visual Evaluation** | [Paper](https://neurips.cc/virtual/2025/poster/121842) · [GitHub](https://github.com/gorjanradevski/dave) |
-| **DisasterM3: A Remote Sensing Vision-Language Dataset for Disaster Damage Assessment and Response** | [Paper](https://neurips.cc/virtual/2025/poster/121427) · [GitHub](https://github.com/Junjue-Wang/DisasterM3) |
-| **DynamicVL: Benchmarking Multimodal Large Language Models for Dynamic City Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/121371) · [GitHub](https://github.com/weihao1115/dynamicvl) |
-| **EgoExOR: An Ego-Exo-Centric  Operating Room Dataset for Surgical Activity Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/121697) · [GitHub](https://github.com/ardamamur/EgoExOR) |
-| **Enhancing Infrared Vision: Progressive Prompt Fusion Network and Benchmark** | [Paper](https://neurips.cc/virtual/2025/poster/115172) |
-| **Exploiting the Asymmetric Uncertainty Structure of Pre-trained VLMs on the Unit Hypersphere** | [Paper](https://neurips.cc/virtual/2025/poster/116582) · [GitHub](https://github.com/li-ju666/asymvlm) |
-| **Face-Human-Bench: A Comprehensive Benchmark of Face and Human Understanding for Multi-modal Assistants** | [Paper](https://neurips.cc/virtual/2025/poster/121722) · [Project](https://face-human-bench.github.io/) |
-| **Hyperphantasia: A Benchmark for Evaluating the Mental Visualization Capabilities of Multimodal LLMs** | [Paper](https://neurips.cc/virtual/2025/poster/121686) · [GitHub](https://github.com/AIF4S/Hyperphantasia) |
-| **IndEgo: A Dataset of Industrial Scenarios and Collaborative Work for Egocentric Assistants** | [Paper](https://neurips.cc/virtual/2025/poster/121501) · [Project](https://indego-dataset.github.io/) |
-| **InfoChartQA: A Benchmark for Multimodal Question Answering on Infographic Charts** | [Paper](https://neurips.cc/virtual/2025/poster/121377) · [GitHub](https://github.com/thu-vis/InfoChartQA) |
-| **MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/121773) · [GitHub](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) |
-| **MMLongBench: Benchmarking Long-Context Vision-Language Models Effectively and Thoroughly** | [Paper](https://neurips.cc/virtual/2025/poster/121768) · [Project](https://zhaowei-wang-nlp.github.io/MMLongBench-page/) |
-| **RGB-to-Polarization Estimation: A New Task and Benchmark Study** | [Paper](https://neurips.cc/virtual/2025/poster/121777) |
-| **RSCC: A Large-Scale Remote Sensing Change Caption Dataset for Disaster Events** | [Paper](https://neurips.cc/virtual/2025/poster/121378) · [Project](https://bili-sakura.github.io/RSCC/) |
-| **Roboflow100-VL: A Multi-Domain Object Detection Benchmark for Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/121741) · [Project](https://rf100-vl.org/) |
-| **TaiwanVQA: Benchmarking and Enhancing Cultural Understanding in Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/121559) · [Project](https://huggingface.co/datasets/hhhuang/TaiwanVQA) |
-| **V2X-Radar: A Multi-modal Dataset with 4D Radar for Cooperative Perception** | [Paper](https://neurips.cc/virtual/2025/poster/121426) · [GitHub](https://github.com/yanglei18/V2X-Radar) |
-| **WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios** | [Paper](https://neurips.cc/virtual/2025/poster/121428) |
-
-## 🔄 Multimodal Alignment & Pre-training
-
-| Paper | Links |
-|-------|-------|
-| **Aligning by Misaligning: Boundary-aware Curriculum Learning for Multimodal Alignment** | [Paper](https://neurips.cc/virtual/2025/poster/118266) |
-| **Amplifying Prominent Representations in Multimodal Learning  via Variational Dirichlet Process** | [Paper](https://neurips.cc/virtual/2025/poster/117022) |
-| **Automatic Synthetic Data and Fine-grained Adaptive Feature Alignment for Composed Person Retrieval** | [Paper](https://neurips.cc/virtual/2025/poster/115728) · [GitHub](https://github.com/Delong-liu-bupt/Composed_Person_Retrieval) |
-| **Continual Multimodal Contrastive Learning** | [Paper](https://neurips.cc/virtual/2025/poster/116428) |
-| **GRIT: Teaching MLLMs to Think with Images** | [Paper](https://neurips.cc/virtual/2025/poster/118020) · [Project](https://grounded-reasoning.github.io/) |
-| **Gaze-VLM: Bridging Gaze and VLMs through Attention Regularization for Egocentric Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/120280) |
-| **Guiding Cross-Modal Representations with MLLM Priors via Preference Alignment** | [Paper](https://neurips.cc/virtual/2025/poster/116450) |
-| **MimeQA: Towards Socially-Intelligent Nonverbal Foundation Models** | [Paper](https://neurips.cc/virtual/2025/poster/121711) |
-| **MokA: Multimodal Low-Rank Adaptation for MLLMs** | [Paper](https://neurips.cc/virtual/2025/poster/116047) · [Project](https://gewu-lab.github.io/MokA/) |
-| **Neighbor-aware Contrastive Disambiguation for Cross-Modal Hashing with Redundant Annotations** | [Paper](https://neurips.cc/virtual/2025/poster/136220) · [GitHub](https://github.com/Rose-bud/NACD) |
-| **SpaceServe: Spatial Multiplexing of Complementary Encoders and Decoders for Multimodal LLMs** | [Paper](https://neurips.cc/virtual/2025/poster/115356) · [GitHub](https://github.com/gofreelee/SpaceServe) |
-| **With Limited Data for Multimodal Alignment, Let the STRUCTURE Guide You** | [Paper](https://neurips.cc/virtual/2025/poster/118769) · [Project](https://brbiclab.epfl.ch/projects/structure/) |
-| **Zooming from Context to Cue: Hierarchical Preference Optimization for Multi-Image MLLMs** | [Paper](https://neurips.cc/virtual/2025/poster/116709) |
-
-## 🖼️ Generation & Editing
-
-| Paper | Links |
-|-------|-------|
-| **Benchmarking Retrieval-Augmented Multimomal Generation for Document Question Answering** | [Paper](https://neurips.cc/virtual/2025/poster/121603) · [Project](https://mmdocrag.github.io/MMDocRAG/) |
-| **Co-Reinforcement Learning for Unified Multimodal Understanding and Generation** | [Paper](https://neurips.cc/virtual/2025/poster/117287) |
-| **DGSolver: Diffusion Generalist Solver with Universal Posterior Sampling for Image Restoration** | [Paper](https://neurips.cc/virtual/2025/poster/116716) · [GitHub](https://github.com/MiliLab/DGSolver) |
-| **DP²O-SR: Direct Perceptual Preference Optimization for Real-World Image Super-Resolution** | [Paper](https://neurips.cc/virtual/2025/poster/119975) · [GitHub](https://github.com/cswry/DP2O-SR) |
-| **Enhancing Text-to-Image Diffusion Transformer via Split-Text Conditioning** | [Paper](https://neurips.cc/virtual/2025/poster/120085) · [GitHub](https://github.com/zy-ansel/DiT-ST) |
-| **HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation** | [Paper](https://neurips.cc/virtual/2025/poster/118982) · [GitHub](https://github.com/Gen-Verse/HermesFlow) |
-| **LEDiT:  Your Length-Extrapolatable Diffusion Transformer without Positional Encoding** | [Paper](https://neurips.cc/virtual/2025/poster/119583) |
-| **LaViDa: A Large Diffusion Model for Vision-Language Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/119782) |
-| **MMaDA: Multimodal Large Diffusion Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/115311) · [GitHub](https://github.com/Gen-Verse/MMaDA) |
-| **Personalized Visual Content Generation in Conversational Systems** | [Paper](https://neurips.cc/virtual/2025/poster/119795) |
-| **Promptable 3-D Object Localization with Latent Diffusion Models** | [Paper](https://neurips.cc/virtual/2025/poster/119053) |
-| **Rare Text Semantics Were Always There in Your Diffusion Transformer** | [Paper](https://neurips.cc/virtual/2025/poster/115559) |
-| **Reliable Lifelong Multimodal Editing: Conflict-Aware Retrieval Meets Multi-Level Guidance** | [Paper](https://neurips.cc/virtual/2025/poster/116635) |
-| **Table2LaTeX-RL: High-Fidelity LaTeX Code Generation from Table Images via Reinforced Multimodal Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/120302) · [GitHub](https://github.com/newLLing/Table2LaTeX-RL) |
-| **UniGen: Enhanced Training & Test-Time Strategies for Unified Multimodal Understanding and Generation** | [Paper](https://neurips.cc/virtual/2025/poster/116520) |
-| **UniTok: a Unified Tokenizer for Visual Generation and Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/116864) · [Project](https://foundationvision.github.io/UniTok/) |
-| **Vision as a Dialect: Unifying Visual Understanding and Generation via Text-Aligned Representations** | [Paper](https://neurips.cc/virtual/2025/poster/118811) · [Project](https://tar.csuhan.com/) |
-
-## 🛡️ Safety, Trustworthiness & Hallucination
-
-| Paper | Links |
-|-------|-------|
-| **A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1** | [Paper](https://neurips.cc/virtual/2025/poster/119497) · [GitHub](https://github.com/VILA-Lab/M-Attack) |
-| **Decoupling Contrastive Decoding: Robust Hallucination Mitigation in Multimodal Large Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/118235) |
-| **Directed-Tokens: A Robust Multi-Modality Alignment Approach to Large Language-Vision Models** | [Paper](https://neurips.cc/virtual/2025/poster/116581) |
-| **Discovering Compositional Hallucinations in LVLMs** | [Paper](https://neurips.cc/virtual/2025/poster/119442) |
-| **Generate, but Verify: Reducing Hallucination in Vision-Language Models with Retrospective Resampling** | [Paper](https://neurips.cc/virtual/2025/poster/120029) · [Project](https://reverse-vlm.github.io/) |
-| **Hallucination at a Glance: Controlled Visual Edits and Fine-Grained Multimodal Learning** | [Paper](https://neurips.cc/virtual/2025/poster/115500) |
-| **Image Token Matters: Mitigating Hallucination in Discrete Tokenizer-based Large Vision-Language Models via Latent Editing** | [Paper](https://neurips.cc/virtual/2025/poster/117602) |
-| **Intervene-All-Paths: Unified Mitigation of LVLM Hallucinations across Alignment Formats** | [Paper](https://neurips.cc/virtual/2025/poster/118894) · [GitHub](https://github.com/SooLab/AllPath) |
-| **Language‑Bias‑Resilient Visual Question Answering via Adaptive Multi‑Margin Collaborative Debiasing** | [Paper](https://neurips.cc/virtual/2025/poster/115795) |
-| **Miss-ReID: Delivering Robust Multi-Modality Object Re-Identification Despite Missing Modalities** | [Paper](https://neurips.cc/virtual/2025/poster/119663) |
-| **Mitigating Hallucination Through Theory-Consistent Symmetric Multimodal Preference Optimization** | [Paper](https://neurips.cc/virtual/2025/poster/115608) · [GitHub](https://github.com/Liuwq-bit/SymMPO) |
-| **On Epistemic Uncertainty of Visual Tokens for Object Hallucinations in Large Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/116514) · [Project](https://keenyjin.github.io/epistemic/) |
-| **Partition-Then-Adapt: Combating Prediction Bias for Reliable Multi-Modal Test-Time Adaptation** | [Paper](https://neurips.cc/virtual/2025/poster/117876) · [GitHub](https://github.com/MPI-Lab/PTA) |
-| **Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs** | [Paper](https://neurips.cc/virtual/2025/poster/115828) · [Project](https://kejiazhang-robust.github.io/poison-cure-lvm) |
-| **Projection-Manifold Regularized Latent Diffusion for Robust General Image Fusion** | [Paper](https://neurips.cc/virtual/2025/poster/117987) |
-| **Scaling Laws for Robust Comparison of Open Foundation Language-Vision Models and Datasets** | [Paper](https://neurips.cc/virtual/2025/poster/117085) |
-| **Seeing Sound, Hearing Sight: Uncovering Modality Bias and Conflict of AI models in Sound Localization** | [Paper](https://neurips.cc/virtual/2025/poster/118212) · [GitHub](https://github.com/CuriseJia/NeurIPS2025-Spotlight-SSHS) |
-| **Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/117155) |
-| **Systematic Reward Gap Optimization for Mitigating VLM Hallucinations** | [Paper](https://neurips.cc/virtual/2025/poster/116851) · [Project](https://tpr-dpo.github.io/) |
-| **Towards Robust Uncertainty Calibration for Composed Image Retrieval** | [Paper](https://neurips.cc/virtual/2025/poster/118555) |
-| **Understanding and Rectifying Safety Perception Distortion in VLMs** | [Paper](https://neurips.cc/virtual/2025/poster/118667) |
-
-## 🤖 Embodied AI & Robotics
-
-| Paper | Links |
-|-------|-------|
-| **BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent** | [Paper](https://neurips.cc/virtual/2025/poster/119419) |
-| **Benchmarking Egocentric Multimodal Goal Inference for Assistive Wearable Agents** | [Paper](https://neurips.cc/virtual/2025/poster/121655) · [Project](https://facebookresearch.github.io/WAGIBench/) |
-| **Embodied Web Agents: Bridging Physical-Digital Realms for Integrated Agent Intelligence** | [Paper](https://neurips.cc/virtual/2025/poster/121809) · [Project](https://embodied-web-agent.github.io/) |
-| **GUI-Rise: Structured Reasoning and History Summarization for GUI Navigation** | [Paper](https://neurips.cc/virtual/2025/poster/117425) · [Project](https://leon022.github.io/GUI-Rise/) |
-| **Hierarchical Semantic-Augmented Navigation: Optimal Transport and Graph-Driven Reasoning for Vision-Language Navigation** | [Paper](https://neurips.cc/virtual/2025/poster/115108) |
-| **Iterative Tool Usage Exploration for Multimodal Agents via Step-wise Preference Tuning** | [Paper](https://neurips.cc/virtual/2025/poster/115154) · [Project](https://neurips.cc/virtual/2025/loc/san-diego/poster/sport-agents.github.io) |
-| **MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents** | [Paper](https://neurips.cc/virtual/2025/poster/117813) · [Project](https://neurips.cc/virtual/2025/loc/san-diego/poster/aichberger.github.io) |
-| **Perception-R1: Pioneering Perception Policy with Reinforcement Learning** | [Paper](https://neurips.cc/virtual/2025/poster/119361) · [arXiv](https://arxiv.org/pdf/2504.07954) |
-| **RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics** | [Paper](https://neurips.cc/virtual/2025/poster/118306) · [Project](https://zhoues.github.io/RoboRefer/) |
-| **STRIDER: Navigation via Instruction-Aligned Structural Decision Space Optimization** | [Paper](https://neurips.cc/virtual/2025/poster/115370) |
-| **Semi-off-Policy Reinforcement Learning for Vision-Language Slow-Thinking Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/115068) |
-| **Towards Unified Multimodal Interleaved Generation via Group Relative Policy Optimization** | [Paper](https://neurips.cc/virtual/2025/poster/116276) |
-| **UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents** | [Paper](https://neurips.cc/virtual/2025/poster/119990) |
-
-## 🧊 3D & Point Clouds
-
-| Paper | Links |
-|-------|-------|
-| **3EED: Ground Everything Everywhere in 3D** | [Paper](https://neurips.cc/virtual/2025/poster/121462) · [Project](https://project-3eed.github.io/) |
-| **AffordBot: 3D Fine-grained Embodied Reasoning via Multimodal Large Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/118403) |
-| **Asymmetric Dual Self-Distillation for 3D Self-Supervised Representation Learning** | [Paper](https://neurips.cc/virtual/2025/poster/119465) · [GitHub](https://github.com/RFLeijenaar/AsymDSD) |
-| **Backpropagation-Free Test-Time Adaptation via Probabilistic Gaussian Alignment** | [Paper](https://neurips.cc/virtual/2025/poster/115767) · [Project](https://aim-skku.github.io/ADAPT/) |
-| **CroPe: Cross-Modal Semantic Compensation Adaptation for All Adverse Scene Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/120067) · [GitHub](https://github.com/wqh011128/CroPe) |
-| **DIFFSSR: Stereo Image Super-resolution Using Differential Transformer** | [Paper](https://neurips.cc/virtual/2025/poster/115153) · [GitHub](https://github.com/Zdafeng/DIFFSSR) |
-| **Distil-E2D: Distilling Image-to-Depth Priors for Event-Based Monocular Depth Estimation** | [Paper](https://neurips.cc/virtual/2025/poster/115168) |
-| **Dynam3D: Dynamic Layered 3D Tokens Empower VLM for Vision-and-Language Navigation** | [Paper](https://neurips.cc/virtual/2025/poster/115715) |
-| **ESCA: Contextualizing Embodied Agents via Scene-Graph Generation** | [Paper](https://neurips.cc/virtual/2025/poster/117064) |
-| **From Objects to Anywhere: A Holistic Benchmark for Multi-level Visual Grounding in 3D Scenes** | [Paper](https://neurips.cc/virtual/2025/poster/121709) · [Project](https://anywhere-3d.github.io/) |
-| **Gaze Beyond the Frame: Forecasting Egocentric 3D Visual Span** | [Paper](https://neurips.cc/virtual/2025/poster/119590) |
-| **IPFormer: Visual 3D Panoptic Scene Completion with Context-Adaptive Instance Proposals** | [Paper](https://neurips.cc/virtual/2025/poster/117455) · [Project](https://markus-42.github.io/publications/2025/ipformer/) |
-| **IR3D-Bench: Evaluating Vision-Language Model Scene Understanding as Agentic Inverse Rendering** | [Paper](https://neurips.cc/virtual/2025/poster/121555) · [Project](https://ir3d-bench.github.io/) |
-| **Interactive Cross-modal Learning for Text-3D Scene Retrieval** | [Paper](https://neurips.cc/virtual/2025/poster/116802) |
-| **MEGADance: Mixture-of-Experts Architecture for Genre-Aware 3D Dance Generation** | [Paper](https://neurips.cc/virtual/2025/poster/116050) |
-| **MLLM-ISU: The First-Ever Comprehensive Benchmark for Multimodal Large Language Models based Intrusion Scene Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/121848) · [GitHub](https://github.com/1012537710/MLLM-ISU) |
-| **MSTAR: Box-free Multi-query Scene Text Retrieval with Attention Recycling** | [Paper](https://neurips.cc/virtual/2025/poster/118782) · [GitHub](https://github.com/yingift/MSTAR) |
-| **NAUTILUS: A Large Multimodal Model for Underwater Scene Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/118147) · [GitHub](https://github.com/H-EmbodVis/NAUTILUS) |
-| **OnlineSplatter: Pose-Free Online 3D Reconstruction for Free-Moving Objects** | [Paper](https://neurips.cc/virtual/2025/poster/117447) · [Project](https://markhh.com/OnlineSplatter/) |
-| **OpenBox: Annotate Any Bounding Boxes in 3D** | [Paper](https://neurips.cc/virtual/2025/poster/119679) |
-| **OpenHype: Hyperbolic Embeddings for Hierarchical Open-Vocabulary Radiance Fields** | [Paper](https://neurips.cc/virtual/2025/poster/115048) · [Project](https://lisaweijler.github.io/openhype-projectpage/) |
-| **Robust Cross-modal Alignment Learning for Cross-Scene Spatial Reasoning and Grounding** | [Paper](https://neurips.cc/virtual/2025/poster/115216) |
-| **SD-VLM: Spatial Measuring and Understanding with Depth-Encoded Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/118216) · [Project](https://cpystan.github.io/SD_VLM_pages/) |
-| **SceneForge: Enhancing 3D-text alignment with Structured Scene Compositions** | [Paper](https://neurips.cc/virtual/2025/poster/119379) · [Project](https://mortorit.github.io/sceneforge-neurips2025/) |
-| **SceneWeaver: All-in-One 3D Scene Synthesis with an Extensible and Self-Reflective Agent** | [Paper](https://neurips.cc/virtual/2025/poster/115278) · [Project](https://scene-weaver.github.io/) |
-| **Situat3DChange: Situated 3D Change Understanding Dataset for Multimodal Large Language Model** | [Paper](https://neurips.cc/virtual/2025/poster/121602) |
-| **SpatialReasoner: Towards Explicit and Generalizable 3D Spatial Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/116669) · [Project](https://spatial-reasoner.github.io/) |
-| **Towards 3D Objectness Learning in an Open World** | [Paper](https://neurips.cc/virtual/2025/poster/115346) · [Project](https://op3det.github.io/) |
-| **Towards Comprehensive Scene Understanding: Integrating First and Third-Person Views for LVLMs** | [Paper](https://neurips.cc/virtual/2025/poster/116235) · [GitHub](https://github.com/Leeinsu1/Towards-Comprehensive-Scene-Understanding) |
-| **VR-Drive: Viewpoint-Robust End-to-End Driving with Feed-Forward 3D Gaussian Splatting** | [Paper](https://neurips.cc/virtual/2025/poster/118352) |
-| **ViSPLA: Visual Iterative Self-Prompting for Language-Guided 3D Affordance Learning** | [Paper](https://neurips.cc/virtual/2025/poster/119081) · [Project](https://hritam-98.github.io/VisPLA/) |
-| **Walking the Schrödinger Bridge: A Direct Trajectory for Text-to-3D Generation** | [Paper](https://neurips.cc/virtual/2025/poster/116147) · [GitHub](https://github.com/emmaleee789/TraCe.git) |
-| **What’s in Common? Multimodal Models Hallucinate When Reasoning Across Scenes** | [Paper](https://neurips.cc/virtual/2025/poster/121545) |
-| **When Semantics Mislead Vision: Mitigating Large Multimodal Models Hallucinations in Scene Text Spotting and Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/119366) |
-
-## 🧠 Reasoning & Chain-of-Thought
-
-| Paper | Links |
-|-------|-------|
-| **A2Seek: Towards Reasoning-Centric Benchmark for Aerial Anomaly Understanding** | [Paper](https://neurips.cc/virtual/2025/poster/121562) · [Project](https://2-mo.github.io/A2Seek) |
-| **Actial: Activate Spatial Reasoning Ability of Multimodal Large Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/116431) |
-| **ChartMuseum: Testing Visual Reasoning Capabilities of Large Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/121447) · [GitHub](https://github.com/Liyan06/ChartMuseum) · [Project](https://chartmuseum-leaderboard.github.io/) |
-| **ColorBench: Can VLMs See and Understand the Colorful World? A Comprehensive Benchmark for Color Perception, Reasoning, and Robustness** | [Paper](https://neurips.cc/virtual/2025/poster/121433) |
-| **EvolvedGRPO: Unlocking Reasoning in LVLMs via Progressive Instruction Evolution** | [Paper](https://neurips.cc/virtual/2025/poster/115560) · [GitHub](https://github.com/SHENZHEBEI/EvolvedGRPO) |
-| **Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs** | [Paper](https://neurips.cc/virtual/2025/poster/118573) · [Project](https://plan-lab.github.io/spatialreasoner) |
-| **First SFT, Second RL, Third UPT: Continual Improving Multi-Modal LLM Reasoning via Unsupervised Post-Training** | [Paper](https://neurips.cc/virtual/2025/poster/118898) · [GitHub](https://github.com/waltonfuture/MM-UPT) |
-| **FlowCut: Rethinking Redundancy via Information Flow for Efficient Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/118495) · [GitHub](https://github.com/TungChintao/FlowCut) |
-| **GRE Suite: Geo-localization Inference via Fine-Tuned Vision-Language Models and Enhanced Reasoning Chains** | [Paper](https://neurips.cc/virtual/2025/poster/119959) |
-| **Grounded Reinforcement Learning for Visual Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/120218) · [Project](https://visually-grounded-rl.github.io/) |
-| **HoloLLM: Multisensory Foundation Model for Language-Grounded Human Sensing and Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/117109) · [Project](https://ntumars.github.io/project/HoloLLM/) |
-| **Knot So Simple: A Minimalistic Environment for Spatial Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/121700) · [Project](https://lil-lab.github.io/knotgym/) |
-| **MINT-CoT: Enabling Interleaved Visual Tokens in Mathematical Chain-of-Thought Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/115416) · [GitHub](https://github.com/xinyan-cxy/MINT-CoT) |
-| **MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agricultural Expert-Guided Conversations** | [Paper](https://neurips.cc/virtual/2025/poster/121750) · [Project](https://mirage-benchmark.github.io/) |
-| **MM-OPERA: Benchmarking Open-ended Association Reasoning for Large Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/121826) · [GitHub](https://github.com/MM-OPERA-Bench/MM-OPERA) |
-| **MMMG: A Massive, Multidisciplinary, Multi-Tier Generation Benchmark for Text-to-Image Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/121491) · [Project](https://mmmgbench.github.io/) |
-| **MMPerspective: Do MLLMs Understand Perspective? A Comprehensive Benchmark for Perspective Perception, Reasoning, and Robustness** | [Paper](https://neurips.cc/virtual/2025/poster/121606) · [Project](https://yunlong10.github.io/MMPerspective/) |
-| **MiCo: Multi-image Contrast for Reinforcement Visual Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/117848) |
-| **MindOmni: Unleashing Reasoning Generation in Vision Language Models with RGPO** | [Paper](https://neurips.cc/virtual/2025/poster/118384) · [GitHub](https://github.com/TencentARC/MindOmni) |
-| **More Thinking, Less Seeing? Assessing Amplified Hallucination in Multimodal Reasoning Models** | [Paper](https://neurips.cc/virtual/2025/poster/118585) · [Project](https://mlrm-halu.github.io/) |
-| **Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search** | [Paper](https://neurips.cc/virtual/2025/poster/116245) · [GitHub](https://github.com/HJYao00/Mulberry/tree/main) |
-| **Multi-step Visual Reasoning with Visual Tokens Scaling and Verification** | [Paper](https://neurips.cc/virtual/2025/poster/115184) |
-| **Multimodal Causal Reasoning for UAV Object Detection** | [Paper](https://neurips.cc/virtual/2025/poster/118849) |
-| **NoisyGRPO: Incentivizing Multimodal CoT Reasoning via Noise Injection and Bayesian Estimation** | [Paper](https://neurips.cc/virtual/2025/poster/115801) · [Project](https://artanic30.github.io/project_pages/NoisyGRPO/) |
-| **OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Visual Text Localization and Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/121614) · [GitHub](https://github.com/Yuliang-Liu/MultimodalOCR) |
-| **Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration** | [Paper](https://neurips.cc/virtual/2025/poster/119706) · [Project](https://aim-uofa.github.io/OmniR1/) |
-| **R1-ShareVL: Incentivizing Reasoning Capabilities of Multimodal Large Language Models via Share-GRPO** | [Paper](https://neurips.cc/virtual/2025/poster/116391) · [GitHub](https://github.com/HJYao00/R1-ShareVL) |
-| **Recognition through Reasoning: Reinforcing Image Geo-localization with Large Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/115287) · [GitHub](https://github.com/lingli1996/GLOBE) |
-| **Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing** | [Paper](https://neurips.cc/virtual/2025/poster/115095) · [GitHub](https://github.com/AntResearchNLP/ViLaSR) |
-| **Rethinking Multimodal Learning from the Perspective of Mitigating Classification Ability Disproportion** | [Paper](https://neurips.cc/virtual/2025/poster/118166) |
-| **Retrv-R1: A Reasoning-Driven MLLM Framework for Universal and Efficient Multimodal Retrieval** | [Paper](https://neurips.cc/virtual/2025/poster/119582) |
-| **SRPO: Enhancing Multimodal LLM Reasoning via Reflection-Aware Reinforcement Learning** | [Paper](https://neurips.cc/virtual/2025/poster/116679) · [Project](https://srpo.pages.dev/) |
-| **SURDS: Benchmarking Spatial Understanding and Reasoning in Driving Scenarios with Vision Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/121802) · [GitHub](https://github.com/xiandaguo/drive-mllm) |
-| **SeePhys:  Does Seeing Help Thinking? – Benchmarking Vision-Based Physics Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/121799) · [Project](https://seephys.github.io/) |
-| **SoTA with Less: MCTS-Guided Sample Selection for Data-Efficient Visual Reasoning Self-Improvement** | [Paper](https://neurips.cc/virtual/2025/poster/118230) |
-| **Struct2D: A Perception-Guided Framework for Spatial Reasoning in MLLMs** | [Paper](https://neurips.cc/virtual/2025/poster/115762) |
-| **To Think or Not To Think: A Study of Thinking in Rule-Based Visual Reinforcement Fine-Tuning** | [Paper](https://neurips.cc/virtual/2025/poster/117405) · [GitHub](https://github.com/minglllli/CLS-RL/tree/main) |
-| **Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition** | [Paper](https://neurips.cc/virtual/2025/poster/116052) · [GitHub](https://github.com/BFlameSwift/Uni-MuMER) |
-| **UniPixel: Unified Object Referring and Segmentation for Pixel-Level Visual Reasoning** | [Paper](https://neurips.cc/virtual/2025/poster/120066) · [Project](https://polyu-chenlab.github.io/unipixel/) |
-| **Unified Multimodal Chain-of-Thought Reward Model through Reinforcement Fine-Tuning** | [Paper](https://neurips.cc/virtual/2025/poster/117965) · [Project](https://codegoat24.github.io/UnifiedReward/think) |
-| **Unveiling Chain of Step Reasoning for Vision-Language Models with Fine-grained Rewards** | [Paper](https://neurips.cc/virtual/2025/poster/119237) · [GitHub](https://github.com/baaivision/CoS) |
-| **Unveiling the Compositional Ability Gap in Vision-Language Reasoning Model** | [Paper](https://neurips.cc/virtual/2025/poster/118747) · [GitHub](https://github.com/ltl3A87/ComPA) |
-| **VLM-R³: Region Recognition, Reasoning, and Refinement for Enhanced Multimodal Chain-of-Thought** | [Paper](https://neurips.cc/virtual/2025/poster/119135) |
-| **VLMs have Tunnel Vision: Evaluating Nonlocal Visual Reasoning in Leading VLMs** | [Paper](https://neurips.cc/virtual/2025/poster/117181) · [Project](https://vlmtunnel.github.io/) |
-| **Visual Structures Help Visual Reasoning:  Addressing the Binding Problem in LVLMs** | [Paper](https://neurips.cc/virtual/2025/poster/117879) · [Project](https://sharif-ml-lab.github.io/VISER/) |
-| **Visual Thoughts: A Unified Perspective of Understanding Multimodal Chain-of-Thought** | [Paper](https://neurips.cc/virtual/2025/poster/115243) |
-| **VisualQuality-R1: Reasoning-Induced Image Quality Assessment via Reinforcement Learning to Rank** | [Paper](https://neurips.cc/virtual/2025/poster/115506) · [GitHub](https://github.com/TianheWu/VisualQuality-R1) |
-
-## 🩺 Medical & Scientific
-
-| Paper | Links |
-|-------|-------|
-| **ExGra-Med: Extended Context Graph Alignment for Medical Vision-Language Models** | [Paper](https://neurips.cc/virtual/2025/poster/117826) |
-| **From Human Attention to Diagnosis: Semantic Patch-Level Integration of Vision-Language Models in Medical Imaging** | [Paper](https://neurips.cc/virtual/2025/poster/116279) |
-| **MedSG-Bench: A Benchmark for Medical Image Sequences Grounding** | [Paper](https://neurips.cc/virtual/2025/poster/121815) · [GitHub](https://github.com/Yuejingkun/MedSG-Bench) |
-| **Pancakes: Consistent Multi-Protocol Image Segmentation Across Biomedical Domains** | [Paper](https://neurips.cc/virtual/2025/poster/119522) |
-| **Physics-informed Neural Operator for Pansharpening** | [Paper](https://neurips.cc/virtual/2025/poster/115598) |
-| **RadZero: Similarity-Based Cross-Attention for Explainable Vision-Language Alignment in Chest X-ray with Zero-Shot Multi-Task Capability** | [Paper](https://neurips.cc/virtual/2025/poster/117595) · [GitHub](https://github.com/deepnoid-ai/RadZero) |
-| **SMMILE: An expert-driven benchmark for multimodal medical in-context learning** | [Paper](https://neurips.cc/virtual/2025/poster/121577) · [Project](https://smmile-benchmark.github.io/) |
-| **THUNDER: Tile-level Histopathology image UNDERstanding benchmark** | [Paper](https://neurips.cc/virtual/2025/poster/121557) · [Project](https://mics-lab.github.io/thunder/) |
-| **Toward a Vision-Language Foundation Model for Medical Data: Multimodal Dataset and Benchmarks for Vietnamese PET/CT Report Generation** | [Paper](https://neurips.cc/virtual/2025/poster/121676) |
-| **Towards Physics-informed Spatial Intelligence with Human Priors: An Autonomous Driving Pilot Study** | [Paper](https://neurips.cc/virtual/2025/poster/115976) · [Project](https://guanlinwu123.github.io/sigbench/) |
-
-## 📚 Other VLM Papers
+## Other VLM Papers
 
 | Paper | Links |
 |-------|-------|
