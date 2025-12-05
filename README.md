@@ -11,18 +11,18 @@ A curated collection of **Vision-Language Model (VLM)** papers accepted at NeurI
 ---
 
 ## 📑 Table of Contents
-- [⚡ Efficient & Lightweight VLMs](#-efficient--lightweight-vlms)
-- [🎥 Video Understanding & Generation](#-video-understanding--generation)
-- [👁️ Perception & Grounding](#-perception--grounding)
-- [📊 Benchmarks & Evaluation](#-benchmarks--evaluation)
-- [🔄 Multimodal Alignment & Pre-training](#-multimodal-alignment--pre-training)
-- [🖼️ Generation & Editing](#-generation--editing)
-- [🛡️ Safety, Trustworthiness & Hallucination](#-safety-trustworthiness--hallucination)
-- [🤖 Embodied AI & Robotics](#-embodied-ai--robotics)
-- [🧊 3D & Point Clouds](#-3d--point-clouds)
-- [🧠 Reasoning & Chain-of-Thought](#-reasoning--chain-of-thought)
-- [🩺 Medical & Scientific](#-medical--scientific)
-- [📚 Other VLM Papers](#-other-vlm-papers)
+- [⚡ Efficient & Lightweight VLMs](#efficient-lightweight-vlms)
+- [🎥 Video Understanding & Generation](#video-understanding-generation)
+- [👁️ Perception & Grounding](#perception-grounding)
+- [📊 Benchmarks & Evaluation](#benchmarks-evaluation)
+- [🔄 Multimodal Alignment & Pre-training](#multimodal-alignment-pre-training)
+- [🖼️ Generation & Editing](#generation-editing)
+- [🛡️ Safety, Trustworthiness & Hallucination](#safety-trustworthiness-hallucination)
+- [🤖 Embodied AI & Robotics](#embodied-ai-robotics)
+- [🧊 3D & Point Clouds](#3d-point-clouds)
+- [🧠 Reasoning & Chain-of-Thought](#reasoning-chain-of-thought)
+- [🩺 Medical & Scientific](#medical-scientific)
+- [📚 Other VLM Papers](#other-vlm-papers)
 
 ---
 
